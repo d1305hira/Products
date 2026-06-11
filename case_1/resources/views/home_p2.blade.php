@@ -8,7 +8,7 @@
   <div class="whole-container">
   	<div class="container">
       <div class="greeting">
-        <h1>土地のお困りごと、ご相談ください</h1>
+        <h1>お困りごと、ご相談ください</h1>
         <div class="header-label">
           <span class="s1">〇〇〇</span>
           <span class="s2">A事務所</span>

@@ -9,7 +9,7 @@
   <h1>アクセス</h1>
   <div class="info_area">
     <div class="map-info">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d814.0383799546399!2d135.2443611!3d35.30216670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f25!3m2!1m1!2zMzXCsDE4JzA3LjgiTiAxMzXCsDE0JzM5LjciRQ!5e0!3m2!1sja!2sjp!4v1775874060324!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1881.0044198410174!2d135.25254113577918!3d35.30210081445398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1781196613603!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <a href="https://maps.app.goo.gl/JMxFqKD2dUDT7u887"><span>Googleマップで見る</span></a>
     </div>
     <div class="office-info">
@@ -18,7 +18,7 @@
       <div class="office-address">
         <div class="a1">〒111-1111</div>
         <div class="a2">京都府○○</div>
-        <div class="a3">0123-45-6789</di</div>
+        <div class="a3">0123-45-6789</div>
       </div>
     </div>
   </div>
