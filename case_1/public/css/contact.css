@@ -1,0 +1,180 @@
+.page-con {
+  width: 80%;
+  margin: 12px auto;
+}
+
+h1 {
+  text-decoration-thickness: 6px;
+}
+
+.top {
+  padding-left: 12px;
+  position: relative;
+}
+
+.top::before {
+  content:"";
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: red;
+}
+
+.page-con p {
+  font-size: 20px;
+}
+
+.each-con {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form-group {
+  border: 1px solid;
+  font-size: 20px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.form-group table {
+  padding-right: 8px;
+  width:100%;
+}
+
+.left {
+  width: 30%;
+  text-align: center;
+  background-color: rgb(214, 214, 214);
+}
+
+.form-group table td {
+  height: 60px;
+  border: 1px solid;
+}
+
+.input-name {
+  height: 30px;
+  box-sizing: border-box;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.email_domain,.email_tld {
+  font-size: 20px;
+}
+
+.email_domain {
+  margin-left: 8px;
+}
+
+.tel1 {
+  width: 3rem;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.tel2 , .tel3 {
+  width: 3rem;
+  font-size: 20px;
+}
+
+textarea {
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 12rem;
+}
+
+.form-button {
+  display: block;
+  height: 60px;
+  width:300px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid;
+  margin: 16px auto;
+  background-color: rgb(0, 99, 0);
+  color: aliceblue;
+}
+
+.error {
+  color: red;
+}
+
+
+@media screen and (max-width:767px) {
+  .top {
+    font-size: clamp(20px,4vw,28px);
+  }
+
+  .page-con p {
+    font-size: clamp(16px,3.5vw,20px);
+  }
+
+  .form-group {
+    width:clamp(260px,75vw,560px);
+  }
+
+  .form-group table td {
+    height: auto;
+    padding: 6px 0;
+  }
+
+  .left {
+    writing-mode: vertical-lr;
+    font-size: 12px;
+    width: 30%;
+    white-space: nowrap;
+  }
+
+  .left label,.left div {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    white-space: nowrap;
+  }
+
+  .input-name {
+    font-size: 12px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .email_domain,.email_tld {
+    font-size: 12px;
+    width: 35%;
+  }
+
+  .tel1,.tel2,.tel3 {
+    font-size: 12px;
+  }
+
+  .right span {
+    font-size: 12px;
+  }
+
+  .contents {
+    font-size: 12px;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(0.8);
+    margin-right: -1px;
+  }
+
+  .other_content {
+    font-size: 12px;
+  }
+
+  textarea {
+    font-size: clamp(14px,2vw,20px);
+  }
+
+
+}

@@ -1,0 +1,170 @@
+@media(min-width:1025px) {
+  body {
+  min-width: 1025px;
+}
+}
+
+body {
+  background: rgba(247, 229, 207, 0.589);
+}
+
+main  {
+ padding-top: 1px;
+ padding-bottom: 1px;
+}
+
+header {
+  box-shadow: 0px 2px 4px rgba(107, 99, 89, 0.589);
+  padding: 1.5%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0  auto;
+}
+
+.header-title {
+  display: flex;
+  font-size: clamp(14px,2vw,28px);
+  margin: 5px;
+  width: 52%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  font-size: clamp(12px,1.5vw,18px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:3%;
+  width: 40%;
+}
+
+.header-link nav {
+  margin: 4px;
+  margin-left: auto;
+}
+
+.header-link nav a {
+  text-decoration: none;
+  color: rgb(133, 67, 255);
+}
+
+
+footer {
+  width: 100%;
+  background: rgba(247, 229, 207, 0.589);
+  margin: 0 auto;
+}
+
+.footer-credit {
+  display: block;
+  height:120px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(0, 99, 0);
+  background:  rgba(247, 229, 207, 0.589);
+  text-align: center;
+  border: 1px solid;
+}
+
+.footer-logo {
+  font-family: 'Yu Gothic';
+  padding: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-content {
+    width: 90%;
+    flex-direction: column;
+    border: 1px solid;
+    text-align: center;
+  }
+
+  .header-title {
+    width: 100%;
+    font-size: 24px;
+    margin:0 auto;
+  }
+
+  .header-link {
+    margin-left: 20px;
+    font-size:18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .header-link nav {
+    margin: 8px;
+  }
+
+  .footer-credit {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+
+
+
+
+@media screen and (max-width:767px){
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: clamp(10px,3.5vw,24px);
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .header-link {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    font-size: clamp(9px,2.5vw,18px);
+    width: 70%;
+  }
+
+  .header-link nav {
+    margin: 6px 2%;
+  }
+
+  .footer-credit {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: clamp(16px,3vw,28px);
+  }
+
+  .contact-information {
+    font-size: clamp(12px,2vw,16px);
+    line-height: 1.6;
+  }
+}

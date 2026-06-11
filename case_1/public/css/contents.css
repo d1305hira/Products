@@ -1,0 +1,181 @@
+.page-content {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 50px;
+}
+
+.page-head {
+  padding-top: 100px;
+  margin: 0 auto;
+  height: 400px;
+  background: url("/images/contents_page-top.png") no-repeat center/cover;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  background: radial-gradient(circle,rgba(255,255,255, 0.9)0%,rgba(255,255,255,0.4)40%,rgba(255,255,255,0)110%);
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  padding: 4px;
+}
+
+p {
+  padding: 4px;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.page-content-title {
+  font-size: 28px;
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+.con1,.con2,.con3 {
+  box-shadow:0 8px 16px rgba(247, 229, 207, 0.7);
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 22px
+}
+
+
+.con-detail {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.con-detail img {
+  width: 15%;
+  height: 95%;
+  margin: 4px 0 0 4px;
+}
+
+
+
+
+@media screen and (min-width:767px) and (max-width:1023px){
+  h1 {
+    font-size: clamp(28px,5vw,32px);
+  }
+
+  h2 {
+    font-size: clamp(15px,4vw,22px);
+  }
+
+  .page-head {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height:100%;
+  }
+
+  .page-content-title {
+    font-size: clamp(32px,4vw,44px);
+  }
+
+  h3 {
+    font-size: clamp(11px,3.5vw,28px);
+  }
+
+  .con1,.con2,.con3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  
+  .con1-text,.con2-text,.con3-text {
+    display: contents;
+  }
+
+  .con1 img,.con2 img,.con3 img {
+    order: 1 ;
+    width: 20%;
+    height: 95%;
+  }
+
+  .con1 h3,.con2 h3,.con3 h3 {
+    order: 2;
+    flex: 1;
+  }
+
+  .con1 p,.con2 p,.con3 p {
+    order: 3;
+    margin-top: 4px;
+    width: 100%;
+  }
+
+  .p_1,.p_2,.p_3 {
+    font-size: clamp(10px,2.5vw,18px);
+    color:rebeccapurple ;
+  }
+  
+}
+
+
+@media screen and (max-width:767px){
+  h1 {
+    font-size: clamp(28px,5vw,32px);
+  }
+
+  h2 {
+    font-size: clamp(15px,4vw,24px);
+  }
+
+  .page-head {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height:100%;
+  }
+
+  .page-content-title {
+    font-size: clamp(20px,4vw,28px);
+  }
+
+  h3 {
+    font-size: clamp(11px,3.5vw,28px);
+  }
+
+  .con1,.con2,.con3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+
+  
+  .con1-text,.con2-text,.con3-text {
+    display: contents;
+  }
+
+  .con1 img,.con2 img,.con3 img {
+    order: 1 ;
+    width: 20%;
+    height: 95%;
+  }
+
+  .con1 h3,.con2 h3,.con3 h3 {
+    order: 2;
+    flex: 1;
+  }
+
+  .con1 p,.con2 p,.con3 p {
+    order: 3;
+    margin-top: 4px;
+    width: 100%;
+  }
+
+  .p_1,.p_2,.p_3 {
+    font-size: clamp(10px,2.5vw,18px);
+    color:rebeccapurple ;
+  }
+  
+}
